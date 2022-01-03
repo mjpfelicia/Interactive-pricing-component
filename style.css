@@ -321,6 +321,9 @@ button {
         padding-bottom: 0rem;
         height: 100vh;
     }
+    .content-visualizacoes-pagina {
+        margin-left: 0rem;
+    }
     .box-visualizacoes-pagina {
         width: 50%;
     }
