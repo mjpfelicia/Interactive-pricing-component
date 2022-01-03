@@ -33,43 +33,21 @@
                         <div class="conteudo-visualizacoes">
                             <div class="titulo-visualizacoes">
                                 <h2>
-                                    100k Pageviews
+                                    <span id="pageviews">
+                                        100
+                                    </span>k Pageviews
                                 </h2>
-                                <form class="quantidade-vilualizacoes">
-                                    <ul>
-                                        <li>10.000 Pageviews </li>
-                                        <li>50k Pageviews</li>
-                                        <li>100k Pageviews</li>
-                                        <li>500k Pageviews</li>
-                                        <li>1 million Pageviews</li>
-                                    </ul>
-                                </form>
                             </div>
                             <div class="content-button">
                                 <label for="range">
                                 </label>
-                                <input type="range" list="tickmarks">
-                                <datalist id="tickmarks">
-                                    <option value="10.000"></option>
-                                    <option value="50.000"></option>
-                                    <option value="100.000"></option>
-                                    <option value="500.000"></option>
-                                    <option value="1.000.000"></option>
-                                </datalist>
+                                <input type="range" min="0" max="4" id="planos">
                             </div>
                             <div class="conteudo-mensal">
                                 <p>
-                                    <span>$16.00</span> /month
+                                    $<span id="valor">16.00</span> /month
                                 </p>
-                                <form class="valor-conteudo-mensal">
-                                    <ul>
-                                        <li><span>$8.00</span>/month</li>
-                                        <li><span>$12.00</span>/month</li>
-                                        <li><span>$16.00</span>/month</li>
-                                        <li><span>$24.00</span>/month</li>
-                                        <li><span>$36.00</span>/month</li>
-                                    </ul>
-                                </form>
+
                             </div>
                             <div class="conteudo-button">
                                 <p>
@@ -77,12 +55,15 @@
                                 </p>
 
                                 <label class="switch">
-                                    <input type="checkbox">
+                                    <input type="checkbox" id="plano-anual">
                                     <span class="slider round"></span>
                                 </label>
                                 <p>
-                                    Yearly Billing <small>-25%
-                                        <span class="conteudo-desconto">discount</span>
+                                    Yearly Billing
+                                    <small>-25%
+                                        <span class="conteudo-desconto">
+                                            discount
+                                         </span>
                                     </small>
                                 </p>
                             </div>
@@ -91,7 +72,7 @@
                         <div class="content-informacoes-produto">
                             <div class="destaque-produto">
                                 <p>
-                                    <img src="./images/icon-check.svg" alt=""> Unlimited websites
+                                    <img src="./images/icon-check.svg" alt="img"> Unlimited websites
                                 </p>
                                 <p>
                                     <img src="./images/icon-check.svg" alt=""> 100% data ownership
