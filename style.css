@@ -45,7 +45,7 @@ main {
     text-align: center;
     background-image: url(./images/pattern-circles.svg);
     background-repeat: no-repeat;
-    background-position: 6rem 1rem;
+    background-position: 7rem 1rem;
 }
 
 .padding-top {
@@ -88,9 +88,9 @@ form {
 }
 
 .texto-principal {
-    padding-bottom: .4rem;
+    padding-top: 0.9rem;
     color: var(--cor-azul-acinzentado-texto);
-    width: 59%;
+    width: 55%;
     margin: 0 auto;
 }
 
