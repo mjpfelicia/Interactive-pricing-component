@@ -64,9 +64,16 @@ main {
     color: var(--cor-azul-escuro-dessaturado-texto-e-plano-de-fundo-cta);
 }
 
-.conteudo-mensal p span {
-    font-size: 2rem;
+.conteudo-mensal span {
+    font-size: 1.8rem;
     font-weight: 800;
+    color: var(--cor-azul-escuro-dessaturado-texto-e-plano-de-fundo-cta);
+}
+
+strong {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--cor-azul-escuro-dessaturado-texto-e-plano-de-fundo-cta);
 }
 
 .valor-conteudo-mensal span {
@@ -101,6 +108,7 @@ p {
 
 .content-visualizacoes-pagina h2 {
     color: var(--cor-azul-acinzentado-texto);
+    text-transform: uppercase;
 }
 
 .content-button input {
@@ -163,7 +171,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 span {
-    color: var(--cor-azul-escuro-dessaturado-texto-e-plano-de-fundo-cta);
     font-size: 1rem;
     font-weight: 800;
 }
@@ -284,7 +291,7 @@ button {
     .conteudo-visualizacoes {
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100px 100px 100px 100px;
         grid-template-rows: 1fr 1fr 1fr;
         height: 230px;
     }

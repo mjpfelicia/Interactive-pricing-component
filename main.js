@@ -18,7 +18,6 @@ const exibicaoValor = [{
 ];
 const planoAnual = document.getElementById("plano-anual");
 
-
 document.querySelector("input").addEventListener("change", (ev) => {
     const pageViews = document.querySelector('#pageviews');
     const valor = document.querySelector('#valor');
@@ -32,12 +31,9 @@ document.querySelector("input").addEventListener("change", (ev) => {
         valor.textContent = precoComDesconto;
     }
 
-    console.log({ "valor.textContent": valor.textContent })
-
 })
 
 planoAnual.addEventListener("click", (ev) => {
-    const plano = ev;
     const idPlano = document.getElementById("planos");
     const precoPlano = Number(valor.textContent)
     if (planoAnual.checked) {
