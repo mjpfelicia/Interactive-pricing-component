@@ -45,9 +45,7 @@ main {
     text-align: center;
     background-image: url(./images/pattern-circles.svg);
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 6rem 2rem;
-    padding-bottom: 4rem;
+    background-position: 6rem 1rem;
 }
 
 .padding-top {
@@ -114,7 +112,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 300px;
+    height: 250px;
     border-bottom: 1px solid var(--cor-azul-acinzentado-claro-barra-deslizante-vazia);
 }
 
@@ -254,7 +252,7 @@ input:checked+.slider:before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 250px;
+    height: 200px;
     gap: 0.9rem;
 }
 
