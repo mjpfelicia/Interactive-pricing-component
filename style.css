@@ -90,7 +90,7 @@ form {
 .texto-principal {
     padding-top: 0.9rem;
     color: var(--cor-azul-acinzentado-texto);
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -316,8 +316,7 @@ button {
         gap: 0rem;
     }
     .content-preco-simples {
-        background-position: 40rem 3rem;
-        background-size: 10%;
+        background-position: 31rem 3rem;
         padding-bottom: 0rem;
         height: 100vh;
     }
