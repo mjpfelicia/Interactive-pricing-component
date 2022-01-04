@@ -297,7 +297,6 @@ button {
         align-items: center;
         grid-template-columns: 100px 100px 100px 100px;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 230px;
     }
     .content-button {
         grid-column: 1/5;
@@ -317,12 +316,14 @@ button {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        height: 125px;
         gap: 0rem;
     }
     .content-preco-simples {
         display: flex;
         flex-direction: column;
+        margin-top: 5.5rem;
+        width: 540px;
+        height: 398px;
     }
     .content-visualizacoes-pagina {
         margin-left: 0rem;
@@ -331,7 +332,6 @@ button {
         width: 100%;
         max-width: 38rem;
         text-align: center;
-        word-break: break-word;
     }
     .conteudo-desconto {
         display: inline;
