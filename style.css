@@ -39,13 +39,18 @@ main {
     background-image: url(./images/bg-pattern.svg);
     background-repeat: no-repeat;
     background-size: 100% 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 .content-preco-simples {
     text-align: center;
     background-image: url(./images/pattern-circles.svg);
     background-repeat: no-repeat;
-    background-position: 7rem 1rem;
+    background-position-x: center;
+    background-position-y: 2rem;
 }
 
 .padding-top {
@@ -53,7 +58,7 @@ main {
 }
 
 .box-visualizacoes-pagina {
-    padding-top: 5rem;
+    padding-top: 3rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -103,7 +108,6 @@ p {
 .content-visualizacoes-pagina {
     background: var(--cor-branco-fundo-do-componente-de-precos);
     box-shadow: 1px 5px 20px var(--cor-azul-acinzentado-claro-barra-deslizante-vazia);
-    margin-left: 0.7rem;
 }
 
 .content-visualizacoes-pagina h2 {
@@ -322,9 +326,10 @@ button {
         gap: 0rem;
     }
     .content-preco-simples {
-        background-position: 31rem 3rem;
-        padding-bottom: 0rem;
-        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-position-x: center;
+        background-position-y: 3rem;
     }
     .content-visualizacoes-pagina {
         margin-left: 0rem;
