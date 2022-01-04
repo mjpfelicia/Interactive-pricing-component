@@ -40,9 +40,11 @@ main {
     background-repeat: no-repeat;
     background-size: 100% 55%;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 2.4rem 2.4rem 5.5rem;
 }
 
 .content-preco-simples {
@@ -50,16 +52,14 @@ main {
     background-image: url(./images/pattern-circles.svg);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 2rem;
 }
 
 .padding-top {
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .box-visualizacoes-pagina {
     padding-top: 3rem;
-    width: 90%;
     margin: 0 auto;
 }
 
@@ -99,10 +99,8 @@ p {
 }
 
 .texto-principal {
-    padding-top: 0.9rem;
+    padding-top: 0.6rem;
     color: var(--cor-azul-acinzentado-texto);
-    width: 50%;
-    margin: 0 auto;
 }
 
 .content-visualizacoes-pagina {
@@ -284,6 +282,9 @@ button {
 }
 
 @media only screen and (min-width: 600px) {
+    .box-geral {
+        padding: 0rem;
+    }
     .titulo-principal {
         font-size: 2rem;
         margin: 0px;
@@ -328,8 +329,6 @@ button {
     .content-preco-simples {
         display: flex;
         flex-direction: column;
-        background-position-x: center;
-        background-position-y: 3rem;
     }
     .content-visualizacoes-pagina {
         margin-left: 0rem;
@@ -337,8 +336,6 @@ button {
     .box-visualizacoes-pagina {
         width: 100%;
         max-width: 38rem;
-        padding: 3.4rem 2.4rem 3.2rem;
-        border-radius: 0.8rem;
         text-align: center;
         word-break: break-word;
     }
