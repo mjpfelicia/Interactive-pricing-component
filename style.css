@@ -38,13 +38,12 @@ main {
 .box-geral {
     background-image: url(./images/bg-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 100% 55%;
+    background-size: 100% 50%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
     min-height: 100vh;
-    padding: 2.4rem 2.4rem 5.5rem;
+    padding: 1rem;
 }
 
 .content-preco-simples {
@@ -299,11 +298,6 @@ button {
         grid-template-columns: 100px 100px 100px 100px;
         grid-template-rows: 1fr 1fr 1fr;
         height: 230px;
-    }
-    .content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
     .content-button {
         grid-column: 1/5;
