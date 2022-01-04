@@ -335,7 +335,12 @@ button {
         margin-left: 0rem;
     }
     .box-visualizacoes-pagina {
-        width: 50%;
+        width: 100%;
+        max-width: 38rem;
+        padding: 3.4rem 2.4rem 3.2rem;
+        border-radius: 0.8rem;
+        text-align: center;
+        word-break: break-word;
     }
     .conteudo-desconto {
         display: inline;
