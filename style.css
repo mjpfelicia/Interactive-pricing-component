@@ -321,9 +321,8 @@ button {
     .content-preco-simples {
         display: flex;
         flex-direction: column;
-        margin-top: 5.5rem;
+        margin-top: 3rem;
         width: 540px;
-        height: 398px;
     }
     .content-visualizacoes-pagina {
         margin-left: 0rem;
