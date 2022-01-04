@@ -317,6 +317,7 @@ button {
         align-items: center;
         justify-content: space-around;
         gap: 0rem;
+        height: 150px;
     }
     .content-preco-simples {
         display: flex;
