@@ -306,7 +306,6 @@ button {
     .content-preco-simples {
         display: flex;
         flex-direction: column;
-        margin-top: 3rem;
         width: 540px;
     }
     .content-visualizacoes-pagina {
