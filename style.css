@@ -41,6 +41,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100% 50%;
     display: flex;
+    justify-content: center;
     flex-flow: column;
     align-items: center;
     min-height: 100vh;
