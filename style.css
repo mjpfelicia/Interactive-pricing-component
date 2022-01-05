@@ -41,11 +41,11 @@ main {
     background-repeat: no-repeat;
     background-size: 100% 50%;
     display: flex;
-    justify-content: center;
     flex-flow: column;
     align-items: center;
     min-height: 100vh;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 .content-preco-simples {
@@ -308,6 +308,7 @@ button {
         display: flex;
         flex-direction: column;
         width: 540px;
+        margin-top: 3rem;
     }
     .content-visualizacoes-pagina {
         margin-left: 0rem;
